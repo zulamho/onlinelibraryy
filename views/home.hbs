@@ -1,0 +1,25 @@
+
+
+<div class="bodyBook">
+    
+{{#each dataBook}}
+
+ 
+ <div class="book">
+
+ <img src="{{image}}" class="img" >
+ <div><a href="/book/{{_id}}" class="link">{{name}}</a></div>
+ 
+ </div>
+
+
+
+{{/each}}
+</div>
+
+
+<style>
+    .link{
+         text-decoration: none;
+    }
+</style>
